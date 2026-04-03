@@ -1,0 +1,33 @@
+body { margin:0; background:#0a0a0a; color:white; font-family:Arial; }
+
+.navbar { display:flex; justify-content:space-between; padding:15px; background:black; border-bottom:2px solid red; }
+
+.logo { color:red; font-size:22px; }
+
+.nav-link { color:white; margin:10px; text-decoration:none; }
+
+.hero { text-align:center; padding:100px; }
+
+.form-box { max-width:400px; margin:50px auto; display:flex; flex-direction:column; }
+
+input { margin:10px; padding:10px; background:#1a1a1a; color:white; border:none; }
+
+button { background:red; color:white; padding:10px; border:none; }
+
+.sidebar { width:200px; height:100vh; position:fixed; background:black; padding:20px; }
+
+.main { margin-left:220px; padding:20px; }
+
+.cards { display:flex; gap:20px; }
+
+.card { background:#1a1a1a; padding:20px; border:1px solid red; }
+
+table { width:80%; margin:auto; border-collapse:collapse; }
+
+th,td { border:1px solid red; padding:10px; text-align:center; }
+
+.loader { position:fixed; width:100%; height:100%; background:black; color:red; display:flex; justify-content:center; align-items:center; }
+
+.fade-in { animation:fade 1.5s; }
+
+@keyframes fade { from{opacity:0} to{opacity:1} }
